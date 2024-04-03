@@ -84,7 +84,7 @@ describe("quiz.hostQuizAsync()", function () {
 			});
 
 			it("should have 4 answers", function () {
-				expect(question.answers).to.be.length(3); //change this back to 4
+				expect(question.answers).to.be.length(4);
 			});
 
 			it("should have options A, B, C and D in that order", function () {
